@@ -1,0 +1,104 @@
+
+body{
+    background-color: lightgreen;
+}
+.mygtukai{
+    display: flex;
+    flex-wrap: wrap;
+}
+h1{
+    font-size: 60px;
+    text-align: center;
+    text-decoration: dotted;
+   color:rgb(247, 103, 8);
+   border: 10px;
+}
+
+
+.mygtukas1,.mygtukas2,.mygtukas3,.mygtukas4,.mygtukas5,.mygtukas6{
+   
+    font-size: 50px;
+    margin: 10px;
+    color:rgb(223, 72, 17); 
+    background-size: cover;
+    width: 350px;
+    height: 200px;  
+    border: 1px solid;
+    padding: 10px;
+    box-shadow: 5px 5px #4f4f4f;
+}
+.mygtukas1:hover,.mygtukas2:hover,.mygtukas3:hover,.mygtukas4:hover,.mygtukas5:hover,.mygtukas6:hover,.mygtukas:hover,#mygtas{
+    color: violet;
+    cursor:pointer;
+}
+.mygtukas1{
+    background-image:url("foto/ElVariklis.jpg");    
+}
+
+.mygtukas2{
+    background-image:url("foto/kabelis.jpg");   
+}
+
+.mygtukas3{
+    background-image:url("foto/keitiklis.jpg");      
+}
+
+.mygtukas4{
+    background-image:url("foto/paleidejas.jpg");      
+}
+
+.mygtukas5{
+    background-image:url("foto/rele.jpg");   
+}
+
+.mygtukas6{
+    background-image:url("foto/daviklis.jpg");
+}
+p{
+    text-align:center;
+    font-size: 40px;
+    text-shadow:3px 6px slateblue;
+    color: rgb(133, 6, 6);
+
+}
+h2{
+    text-align:center;
+    font-size: 50px;
+    text-shadow:3px 6px slateblue;
+    color: rgb(133, 6, 6);
+}
+.atgal{
+    font-size: 30px;
+    color: red;
+}
+#varikliai,#davikliai,#kabeliai,#keitikliai,#paleidejai,#reles{
+    margin: 20px 20px;
+    display: flex;
+    justify-content: center;
+   
+   
+}
+.mygtukas{
+     text-align: center;
+    font-size: 30px;
+    
+    
+}
+.sudetis{
+    display: none;
+}
+
+
+.uzdaryti{
+  display: flex;
+  align-items: flex-end;
+  justify-content: flex-end;
+  font-size: 30px;
+  cursor: pointer;
+
+}
+
+img{
+width: 200px;
+height: 200px;
+}
